@@ -41,7 +41,7 @@ const RegisterForm = () => {
         </div>
         <form
           onSubmit={handleSubmit(onSubmit)}
-          className="w-full max-w-[400px] mx-auto space-y-4 bg-[#09090B] h-fit p-3 md:p-6
+          className="w-full max-w-[420px] mx-auto space-y-4 bg-[#09090B] h-fit p-3 md:p-6
            rounded-lg border border-[#27272A] shadow-[0px_1px_2px_#0000000D]"
         >
           <div className="grid grid-cols-2 gap-2 md:gap-4">
