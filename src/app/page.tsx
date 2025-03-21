@@ -1,8 +1,8 @@
-import HeroSection from "@/components/mainPageComponents/HeroSection"
+import KeyFeatures from "@/components/mainPageComponents/KeyFeatures"
 const Home = () => {
   return (
     <div>
-      <HeroSection/>
+      <KeyFeatures/>
     </div>
   )
 }
