@@ -1,5 +1,10 @@
+import SecondStepForm from "./components/SecondStepForm";
+
 export default function Home() {
   return (
-    <p>Base page</p>
+
+    <div className="w-full bg-[#09090B] " >
+          <p>Base page</p>
+    </div>
   );
 }
