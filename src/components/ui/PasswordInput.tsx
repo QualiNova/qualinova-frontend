@@ -23,7 +23,7 @@ const PasswordInput: React.FC<PasswordInputProps> = ({
       </label>
       <div className="relative">
         <input
-          id={inputId} // Ensure input has an ID
+          id={inputId}
           type={showPassword ? "text" : "password"}
           className="w-full p-2 pr-10 border border-[#27272A] rounded-[6px] focus:ring-2 focus:ring-slate-500 text-white"
           {...props}
