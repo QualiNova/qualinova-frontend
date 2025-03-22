@@ -1,8 +1,8 @@
-import KeyFeatures from "@/components/mainPageComponents/KeyFeatures"
+import HowItWorks from "@/components/mainPageComponents/HowItWorks"
 const Home = () => {
   return (
     <div>
-      <KeyFeatures/>
+      <HowItWorks/>
     </div>
   )
 }
