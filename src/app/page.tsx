@@ -1,7 +1,12 @@
-export default function Home() {
+import KeyFeatures from "@/components/organisms/Keyfeatures/KeyFeatures";
+const Home = () => {
   return (
-    <div >
-      Base Page
+    <div>
+      <KeyFeatures/>
     </div>
   );
+
 }
+
+export default Home
+
