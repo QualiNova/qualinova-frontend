@@ -1,10 +1,13 @@
-import HowItWorks from "@/components/mainPageComponents/HowItWorks"
+import KeyFeatures from "@/components/organisms/Keyfeatures/KeyFeatures";
 const Home = () => {
   return (
     <div>
-      <HowItWorks/>
+
+      <KeyFeatures/>
+      <>Base Page</>
     </div>
-  )
+  );
+
 }
 
 export default Home
