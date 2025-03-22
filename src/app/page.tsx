@@ -1,5 +1,11 @@
-export default function Home() {
+import KeyFeatures from "@/components/mainPageComponents/KeyFeatures"
+const Home = () => {
   return (
-    <p>Base page</p>
-  );
+    <div>
+      <KeyFeatures/>
+    </div>
+  )
 }
+
+export default Home
+
