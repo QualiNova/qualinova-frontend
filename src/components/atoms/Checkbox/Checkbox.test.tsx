@@ -1,5 +1,5 @@
 import { render, screen, fireEvent } from "@testing-library/react";
-import Checkbox from "../components/ui/Checkbox";
+import Checkbox from "./Checkbox";
 import "@testing-library/jest-dom";
 import React from "react";
 

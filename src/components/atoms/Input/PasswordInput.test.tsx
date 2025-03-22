@@ -1,5 +1,5 @@
 import { render, screen, fireEvent } from "@testing-library/react";
-import PasswordInput from "../components/ui/PasswordInput";
+import PasswordInput from "./PasswordInput";
 import "@testing-library/jest-dom";
 
 describe("PasswordInput Component", () => {

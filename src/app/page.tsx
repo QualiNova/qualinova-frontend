@@ -1,5 +1,9 @@
+import RegisterForm from "@/components/organisms/Registerform/RegisterForm";
+
 export default function Home() {
   return (
-    <p>Base page</p>
+    <div>
+      <RegisterForm />
+    </div>
   );
 }

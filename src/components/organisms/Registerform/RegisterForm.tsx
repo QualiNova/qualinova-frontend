@@ -4,13 +4,13 @@ import { useForm } from "react-hook-form";
 import { zodResolver } from "@hookform/resolvers/zod";
 import { registerFormSchema } from "@/schemas/registerFormSchema";
 import { z } from "zod";
-import Input from "@/components/ui/Input";
-import Checkbox from "@/components/ui/Checkbox";
-import { Button } from "@/components/ui/Button";
+import Input from "@/components/atoms/Input/Input";
+import Checkbox from "@/components/atoms/Checkbox/Checkbox";
+import { Button } from "@/components/atoms/Button/Button";
 import Image from "next/image";
-import githubIcon from "@/assets/githubicon.svg";
+import githubIcon from "@/components/atoms/icons/githubicon.svg";
 import Link from "next/link";
-import PasswordInput from "../ui/PasswordInput";
+import PasswordInput from "../../atoms/Input/PasswordInput";
 
 type RegisterFormData = z.infer<typeof registerFormSchema>;
 

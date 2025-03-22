@@ -1,7 +1,7 @@
 import React from "react";
 import { render, screen } from "@testing-library/react";
 import userEvent from "@testing-library/user-event";
-import Input from "../components/ui/Input";
+import Input from "./Input";
 import "@testing-library/jest-dom";
 
 const mockRegister = jest.fn().mockImplementation((name) => ({
