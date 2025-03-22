@@ -1,4 +1,4 @@
-
+import { Button } from "@/components/atoms/Button/Button";
 
 const HeroSection = () => {
   return (
