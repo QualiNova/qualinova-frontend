@@ -21,6 +21,9 @@ const AuthForm = ({ type, defaultValues }: AuthFormProps) => {
         e.preventDefault();
 
         console.log(formData);
+
+        // Clearing the form after successful submission for better UX
+        setFormData(defaultValues)
     }
     return (
         <form className="flex flex-col gap-4 border border-gray-400 p-5 rounded-md mt-7" onSubmit={handleSubmit}>
@@ -61,7 +64,7 @@ const AuthForm = ({ type, defaultValues }: AuthFormProps) => {
 
             <div className="flex gap-0.5 items-center">
                 <div className="h-[1px] basis-[30%] bg-gray-500" />
-                <div className="basis-[40%] text-gray-500 text-sm text-center">OR CONTINUE WITH</div>
+                <div className="basis-[45%] text-gray-500 text-sm text-center">OR CONTINUE WITH</div>
                 <div className="h-[1px] basis-[30%] bg-gray-500" />
             </div>
 
