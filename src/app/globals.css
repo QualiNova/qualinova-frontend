@@ -5,3 +5,25 @@ body {
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+/* Overwriting the default styles for the checkbox input. Remove when a UI component library is installed */
+
+input[type="checkbox"]::before {
+  content: "";
+  position: absolute;
+  width: 10px;
+  height: 5px;
+  border: 2px solid #6a7282;
+  border-top: none;
+  border-right: none;
+  transform: rotate(-45deg);
+  top: 26%;
+  left: 20%;
+  transform-origin: center;
+  opacity: 0;
+  transition: opacity 0.2s ease-in-out;
+}
+
+input[type="checkbox"]:checked::before {
+  opacity: 1;
+}
