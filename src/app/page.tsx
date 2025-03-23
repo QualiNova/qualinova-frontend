@@ -1,10 +1,19 @@
 
 
 
+
 export default function Home() {
+
+import KeyFeatures from "@/components/organisms/Keyfeatures/KeyFeatures";
+import HeroSection from "@/components/organisms/HeroSection/HeroSection";
+const Home = () => {
   return (
-    <div >
-      Base Page
+    <div>
+      <HeroSection/>
+      <KeyFeatures/>
     </div>
   );
 }
+
+export default Home
+
