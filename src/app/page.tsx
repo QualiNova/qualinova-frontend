@@ -1,12 +1,13 @@
+import HeroSection from "@/components/organisms/HeroSection/HeroSection";
+import KeyFeatures from "@/components/organisms/Keyfeatures/KeyFeatures";
 
 
 
 
 export default function Home() {
 
-import KeyFeatures from "@/components/organisms/Keyfeatures/KeyFeatures";
-import HeroSection from "@/components/organisms/HeroSection/HeroSection";
-const Home = () => {
+
+
   return (
     <div>
       <HeroSection/>
@@ -15,5 +16,5 @@ const Home = () => {
   );
 }
 
-export default Home
+
 
