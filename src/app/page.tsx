@@ -1,16 +1,15 @@
-import KeyFeatures from "@/components/mainPageComponents/KeyFeatures"
+import KeyFeatures from "@/components/organisms/Keyfeatures/KeyFeatures";
+import HeroSection from "@/components/organisms/HeroSection/HeroSection";
+import HowItWorks from "@/components/organisms/HowItWorks/HowItWorks";
 const Home = () => {
   return (
     <div>
-
+      <HeroSection/>
       <KeyFeatures/>
-
-
-      <>Base Page</>
+       <HowItWorks/>
     </div>
   );
 
 }
-
 export default Home
 
