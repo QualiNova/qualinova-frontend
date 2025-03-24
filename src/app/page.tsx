@@ -1,12 +1,13 @@
-
-import React from "react";
-import CreateCertificatePage from "@/components/templates/create-certificate-page"
-
-export default function page() {
+import KeyFeatures from "@/components/organisms/Keyfeatures/KeyFeatures";
+import HeroSection from "@/components/organisms/HeroSection/HeroSection";
+const Home = () => {
   return (
-    <>
-    <CreateCertificatePage />
-    </>
-  )
-  
+    <div>
+      <HeroSection/>
+      <KeyFeatures/>
+    </div>
+  );
 }
+
+export default Home
+

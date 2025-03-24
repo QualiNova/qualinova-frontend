@@ -139,7 +139,7 @@ const RegisterForm = () => {
               <span>
                 <Link
                   className="text-sm hover:underline text-[#2563EB]"
-                  href="/"
+                  href="/login"
                 >
                   Sign in
                 </Link>
