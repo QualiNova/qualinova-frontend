@@ -1,14 +1,13 @@
-import HeroSection from "@/components/organisms/HeroSection/HeroSection";
-import KeyFeatures from "@/components/organisms/Keyfeatures/KeyFeatures";
-import HowItWorks from "@/components/organisms/HowItWorks/HowItWorks";
+import HeroSection from "@/components/organisms/HeroSection/HeroSection"
+import KeyFeatures from "@/components/organisms/Keyfeatures/KeyFeatures"
+import HowItWorks from "@/components/organisms/HowItWorks/HowItWorks"
 
 export default function Home() {
-const Home = () => {
   return (
     <div>
-      <HeroSection/>
-      <KeyFeatures/>
-       <HowItWorks/>
+      <HeroSection />
+      <KeyFeatures />
+      <HowItWorks />
     </div>
-  );
-
+  )
+}
