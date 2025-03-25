@@ -10,7 +10,7 @@ export default function CreateCertificatePage() {
       <Navbar />
       <main className="container py-8 bg-[#121212] max-w-4xl mx-auto">
 
-        <Button variant="outline" className="mb-6 flex items-center gap-2">
+        <Button variant="outline" className="mb-6 flex items-center gap-2 ml-17">
           <ArrowLeft size={16} />
           Back
         </Button>
