@@ -3,12 +3,12 @@ import KeyFeatures from "@/components/organisms/Keyfeatures/KeyFeatures";
 import HowItWorks from "@/components/organisms/HowItWorks/HowItWorks";
 
 export default function Home() {
-const Home = () => {
   return (
     <div>
       <HeroSection/>
       <KeyFeatures/>
-       <HowItWorks/>
+      <HowItWorks/>
     </div>
   );
+}
 
