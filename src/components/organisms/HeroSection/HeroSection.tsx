@@ -2,7 +2,7 @@
 const HeroSection = () => {
   return (
     <div className="min-h-screen bg-gray-900 text-white font-sans">
-    
+
 
       <main className="container mx-auto px-16  ">
         <div className="flex flex-col md:flex-row items-center justify-between gap-8 lg:gap-16">
