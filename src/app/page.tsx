@@ -5,9 +5,9 @@ import HowItWorks from "@/components/organisms/HowItWorks/HowItWorks"
 export default function Home() {
   return (
     <div>
-      <HeroSection />
-      <KeyFeatures />
-      <HowItWorks />
+      <HeroSection/>
+      <KeyFeatures/>
+      <HowItWorks/>
     </div>
-  )
+  );
 }

@@ -1,15 +1,11 @@
-import Navbar from "@/components/organisms/navbar"
 import CertificateForm from "@/components/organisms/certificate-form"
 import { Button } from "@/components/atoms/Button/Button";
-
 import { ArrowLeft } from "lucide-react"
 
 export default function CreateCertificatePage() {
   return (
     <div className="min-h-screen bg-background">
-      <Navbar />
-      <main className="container py-8 bg-[#121212] max-w-4xl mx-auto">
-
+     <main className="container py-8 bg-[#121212] max-w-4xl mx-auto">
         <Button variant="outline" className="mb-6 flex items-center gap-2 ml-17">
           <ArrowLeft size={16} />
           Back

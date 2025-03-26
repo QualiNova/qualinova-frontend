@@ -1,8 +1,6 @@
 
 "use client"
-
 import type React from "react"
-
 import { useState } from "react"
 import { Button } from "@/components/atoms/Button/Button";
 import Input from "@/components/atoms/Input/Input";
@@ -237,9 +235,9 @@ export default function CertificateForm() {
         </div>
 
 <div className="flex justify-end">
-  <Button 
-    type="submit" 
-    className="flex items-center gap-2 bg-white !text-black hover:bg-gray-200" 
+  <Button
+    type="submit"
+    className="flex items-center gap-2 bg-white !text-black hover:bg-gray-200"
     disabled={isSubmitting}
   >
     {isSubmitting ? (
@@ -249,7 +247,7 @@ export default function CertificateForm() {
       </>
     ) : (
       <>
-        <span className="!text-black">Next Step</span>    
+        <span className="!text-black">Next Step</span>
         <ArrowRight size={16} className="!text-black" />
       </>
     )}
