@@ -1,4 +1,4 @@
-import CertificateForm from "@/components/organisms/certificate-form"
+import CertificateForm from "@/components/organisms/certificateform/certificate-form"
 import { Button } from "@/components/atoms/Button/Button";
 import { ArrowLeft } from "lucide-react"
 

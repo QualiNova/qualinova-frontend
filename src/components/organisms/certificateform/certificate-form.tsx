@@ -4,9 +4,11 @@ import type React from "react"
 import { useState } from "react"
 import { Button } from "@/components/atoms/Button/Button";
 import Input from "@/components/atoms/Input/Input";
-import Textarea from "@/components/atoms/textarea"
-import Select from "@/components/atoms/select"
-import Radio from "@/components/atoms/radio"
+import Textarea from "@/components/atoms/textarea/textarea"
+// import Select from "@/components/atoms/select"
+import Select from "@/components/atoms/select/select";
+// import Radio from "@/components/atoms/radio"
+import Radio from "@/components/atoms/radio/radio";
 import FormField from "@/components/molecules/form-field"
 import StepIndicator from "@/components/molecules/step-indicator"
 import { ArrowRight } from "lucide-react"
