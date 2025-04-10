@@ -1,10 +1,10 @@
 
 const HeroSection = () => {
   return (
-    <div className="min-h-screen bg-gray-900 text-white font-sans">
+    <div className="bg-gray-900 text-white font-sans">
 
 
-      <main className="container mx-auto px-16  ">
+      <main className="container mx-auto max-w-[75%] pt-[8%]">
         <div className="flex flex-col md:flex-row items-center justify-between gap-8 lg:gap-16">
           {/* Left Section - Content */}
           <div className="w-full md:w-1/2 space-y-6">
@@ -39,8 +39,8 @@ const HeroSection = () => {
           </div>
 
           {/* Right Section - Certificate Image */}
-          <div className="w-full md:w-1/2 flex justify-center items-center mt-8 md:mt-0 h-screen ">
-            <div className="bg-gray-800 rounded-lg w-full max-w-md h-full md:h-[600px] flex items-center justify-center">
+          <div className="w-full md:w-1/2 flex justify-center items-center mt-8 md:mt-0">
+            <div className="bg-gray-800 rounded-lg w-full md:h-[600px] h-[400px] flex items-center justify-center">
               <div className="text-gray-500">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
