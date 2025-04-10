@@ -13,7 +13,7 @@ const NavMenu = () => {
   return (
     <>
      {/* Desktop Navigation */}
-      <div className="hidden ml-10 md:flex space-x-6 px-2">
+      <div className="hidden ml-6 md:flex space-x-2 px-1">
         <NavLink href="/">Home</NavLink>
         <NavLink href="/dashboard">Dashboard</NavLink>
         <NavLink href="/create-certificate">Create Certificate</NavLink>
@@ -22,7 +22,7 @@ const NavMenu = () => {
       </div>
 
       {/* Desktop Buttons */}
-      <div className="hidden md:flex items-center text-white space-x-4 ml-auto">
+      <div className="hidden md:flex text-white space-x-4 ml-auto">
         <Button>Sign In</Button>
         <Button className="bg-[#2563EB] text-black">Sign Up</Button>
       </div>
