@@ -4,7 +4,7 @@ import { Button } from "@/components/atoms/Button/Button";
 import Checkbox from "@/components/atoms/Checkbox/Checkbox";
 import githubIcon from "@/components/atoms/icons/githubicon.svg";
 import Input from "@/components/atoms/Input/Input";
-import { loginFormSchema } from "@/schemas/loginFormSchema";
+import { loginFormSchema } from "@/schemas/LoginForm/LoginFormSchema";
 import { zodResolver } from "@hookform/resolvers/zod";
 import Image from "next/image";
 import Link from "next/link";
