@@ -1,6 +1,6 @@
-import HeroSection from "@/components/organisms/mainPage/HeroSection/HeroSection"
-import KeyFeatures from "@/components/organisms/mainPage/Keyfeatures/KeyFeatures"
-import HowItWorks from "@/components/organisms/mainPage/HowItWorks/HowItWorks"
+import HeroSection from "@/components/organisms/MainPage/HeroSection/HeroSection"
+import KeyFeatures from "@/components/organisms/MainPage/Keyfeatures/KeyFeatures"
+import HowItWorks from "@/components/organisms/MainPage/HowItWorks/HowItWorks"
 
 export default function Home() {
   return (

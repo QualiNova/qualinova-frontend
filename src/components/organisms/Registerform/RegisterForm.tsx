@@ -2,7 +2,7 @@
 
 import { useForm } from "react-hook-form";
 import { zodResolver } from "@hookform/resolvers/zod";
-import { registerFormSchema } from "@/schemas/registerFormSchema";
+import { registerFormSchema } from "@/schemas/RegisterForm/RegisterFormSchema";
 import { z } from "zod";
 import Input from "@/components/atoms/Input/Input";
 import Checkbox from "@/components/atoms/Checkbox/Checkbox";
