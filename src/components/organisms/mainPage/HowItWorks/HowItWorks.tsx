@@ -42,10 +42,10 @@ const Button: React.FC<ButtonProps> = ({ primary = false, children, onClick }) =
 };
 const HowItWorks: React.FC = () => {
   return (
-    <div className="min-h-screen flex flex-col">
+    <div className="flex flex-col">
       {/* How It Works Section */}
-      <section className="bg-gray-900 py-16">
-        <div className="container mx-auto px-4">
+      <section className="bg-gray-900 pt-[12%] pb-[12%]">
+        <div className="container mx-auto max-w-[75%]">
           <h2 className="text-white text-3xl font-bold text-center mb-2">How It Works</h2>
           <p className=" text-center text-[#9CA3AF] mb-12">
           Our blockchain certification process is simple, secure, and efficient
@@ -72,7 +72,7 @@ const HowItWorks: React.FC = () => {
       </section>
 
       {/* Get Started Section */}
-      <section className="bg-blue-900 py-16 flex-grow">
+      <section className="bg-blue-900 py-16 flex-grow py-[8%]">
         <div className="container mx-auto px-4 text-center">
           <h2 className="text-white text-3xl font-bold mb-2">Ready to Get Started?</h2>
           <p className="text-[#DBEAFE] mb-8">
