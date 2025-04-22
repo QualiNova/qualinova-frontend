@@ -1,0 +1,14 @@
+{
+  "name": "qualinova-contracts",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "build": "stellar contract build",
+    "test": "cargo test",
+    "clean": "cargo clean",
+    "deploy:local": "stellar contract deploy --network standalone",
+    "deploy:testnet": "stellar contract deploy --network testnet",
+    "deploy:futurenet": "stellar contract deploy --network futurenet",
+    "soroban:install": "curl -sSL https://soroban.stellar.org/install | sh"
+  }
+}

@@ -1,14 +1,11 @@
-
 "use client"
 import type React from "react"
 import { useState } from "react"
 import { Button } from "@/components/atoms/Button/Button";
 import Input from "@/components/atoms/Input/Input";
-import Textarea from "@/components/atoms/Textarea/Textarea"
-// import Select from "@/components/atoms/select"
-import Select from "@/components/atoms/Select/Select";
-// import Radio from "@/components/atoms/radio"
-import Radio from "@/components/atoms/Radio/Radio";
+import Textarea from "@/components/atoms/textarea/textarea"
+import Select from "@/components/atoms/select/select";
+import Radio from "@/components/atoms/radio/radio";
 import FormField from "@/components/molecules/FormField/FormField"
 import StepIndicator from "@/components/molecules/StepIndicator/StepIndicator"
 import { ArrowRight } from "lucide-react"
