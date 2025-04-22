@@ -8,8 +8,7 @@
     "packages/*"
   ],
   "scripts": {
-    "dev:web": "turbo run dev --filter=qualinova-frontend",
-    "dev:contracts": "turbo run dev --filter=qualinova-contracts",
+    "dev": "turbo run dev",
     "build": "turbo run build",
     "start": "turbo run start",
     "lint": "turbo run lint",
