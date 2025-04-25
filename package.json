@@ -8,13 +8,13 @@
     "packages/*"
   ],
   "scripts": {
-    "dev": "turbo run dev",
-    "build": "turbo run build",
-    "start": "turbo run start",
-    "lint": "turbo run lint",
-    "test": "turbo run test",
-    "clean": "turbo run clean && rm -rf node_modules",
-    "format": "prettier --write \"**/*.{ts,tsx,md}\"",
+    "dev": "turbo run dev --filter=qualinova-frontend",
+    "build": "turbo run build --filter=qualinova-frontend",
+    "start": "turbo run start --filter=qualinova-frontend",
+    "lint": "turbo run lint --filter=qualinova-frontend",
+    "test": "turbo run test --filter=qualinova-frontend",
+    "clean": "turbo run clean && rm -rf node_modules --filter=qualinova-frontend",
+    "format": "prettier --write \"**/*.{ts,tsx,md}\" --filter=qualinova-frontend",
 
     "contracts:build": "turbo run build --filter=qualinova-contracts",
     "contracts:test": "turbo run test --filter=qualinova-contracts",
