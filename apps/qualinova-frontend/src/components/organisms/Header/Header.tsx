@@ -6,7 +6,7 @@ import NavMenu from "../../molecules/NavMenu/NavMenu";
 
 const Header = () => {
   return (
-    <nav className="bg-black text-[#FAFAFA99] flex justify-center transition-colors">
+    <nav className="bg-[#030817] text-[#FAFAFA99] flex justify-center border-b-2 border-[#1c2537] transition-colors">
       <div className="flex flex-col w-full max-w-[75%] py-4">
         <div className="flex flex-col md:flex-row items-center w-full">
           <div className="h-10 w-36">
