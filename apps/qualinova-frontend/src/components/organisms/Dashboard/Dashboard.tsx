@@ -70,7 +70,7 @@ const Dashboard = () => {
         />
 
         {/* Content section */}
-        <div className="mt-4 border border-[#1E293B] rounded-md overflow-x-auto">
+        <div className="">
           <div className="min-w-full">
             {renderContent()}
           </div>
