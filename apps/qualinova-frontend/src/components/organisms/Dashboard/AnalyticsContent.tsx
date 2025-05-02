@@ -2,9 +2,9 @@
 
 const AnalyticsContent = () => {
     return (
-      <div className="mt-6">
-        <div className="mb-8 ml-7">
-          <h2 className="text-xl text-[#F8FAFC] font-semibold mb-2">Analytics</h2>
+      <div className=" mt-4 rounded-md overflow-x-auto border border-[#1E293B]  ">
+        <div className="mb-8  ml-7">
+          <h2 className="text-xl text-[#F8FAFC] font-semibold mt-3">Analytics</h2>
           <p className="text-[#94A3B8] text-sm">
             Detailed analytics about your certificates and verification activity
           </p>
