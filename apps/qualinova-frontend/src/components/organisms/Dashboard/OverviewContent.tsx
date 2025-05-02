@@ -73,11 +73,11 @@ const dummyData: DashboardData = {
     { name: 'Sep', value: 55 },
   ],
   recentCertificates: [
-    { name: "ISO 9001 Compliance", company: "Global Industries", date: "10/12/2023", status: "Verified" },
-    { name: "Food Safety Certification", company: "Fresh Organics", date: "8/17/2023", status: "Verified" },
-    { name: "Environmental Management", company: "Green Solutions", date: "7/05/2023", status: "Pending" },
-    { name: "Quality Assurance", company: "Tech Standards", date: "3/21/2023", status: "Expired" },
-    { name: "Health & Safety Standard", company: "Industrial Systems", date: "1/6/2023", status: "Verified" }
+    { name: "ISO 9001 Compliance", company: "Acme Corporation", date: "10/12/2023", status: "Verified" },
+    { name: "Food Safety Certification", company: "Fresh Foods Inc.", date: "8/17/2023", status: "Verified" },
+    { name: "Environmental Management", company: "Green Solutions Ltd.", date: "7/05/2023", status: "Pending" },
+    { name: "Quality Assurance", company: "Tech Innovations", date: "3/21/2023", status: "Expired" },
+    { name: "Health & Safety Standard", company: "Construction Co.", date: "1/6/2023", status: "Verified" }
   ]
 };
 
