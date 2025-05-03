@@ -7,86 +7,96 @@ enum Status {
     Pending = "Pending",
     Expired = "Expired",
 }
-const certificates = [
+const _certificates = [
     {
         id: "CERT-2023-001",
         name: "ISO 9001 Compliance",
         recipient: "Acme Corporation",
         issue_date: "14/12/2023",
-        expiry_date: "14/12/2024",
+        expiry_date: "9/12/2024",
         status: Status.Active,
         actions: "...",
     },
     {
-        id: "CERT-2023-001",
+        id: "CERT-2023-002",
         name: "ISO 9001 Compliance",
         recipient: "Acme Corporation",
-        issue_date: "14/12/2023",
-        expiry_date: "14/12/2024",
+        issue_date: "9/12/2023",
+        expiry_date: "9/12/2024",
         status: Status.Active,
         actions: "...",
     },
     {
-        id: "CERT-2023-001",
+        id: "CERT-2023-003",
         name: "ISO 9001 Compliance",
         recipient: "Acme Corporation",
-        issue_date: "14/12/2023",
-        expiry_date: "14/12/2024",
+        issue_date: "4/12/2023",
+        expiry_date: "4/12/2024",
         status: Status.Pending,
         actions: "...",
     },
     {
-        id: "CERT-2023-001",
+        id: "CERT-2023-004",
         name: "ISO 9001 Compliance",
         recipient: "Acme Corporation",
-        issue_date: "14/12/2023",
-        expiry_date: "14/12/2024",
+        issue_date: "19/11/2023",
+        expiry_date: "19/11/2024",
         status: Status.Expired,
         actions: "...",
     },
     {
-        id: "CERT-2023-001",
+        id: "CERT-2023-005",
         name: "ISO 9001 Compliance",
         recipient: "Acme Corporation",
-        issue_date: "14/12/2023",
-        expiry_date: "14/12/2024",
+        issue_date: "14/11/2023",
+        expiry_date: "14/11/2024",
         status: Status.Active,
         actions: "...",
     },
     {
-        id: "CERT-2023-001",
+        id: "CERT-2023-006",
         name: "ISO 9001 Compliance",
         recipient: "Acme Corporation",
-        issue_date: "14/12/2023",
-        expiry_date: "14/12/2024",
+        issue_date: "9/11/2023",
+        expiry_date: "9/11/2024",
         status: Status.Active,
         actions: "...",
     },
     {
-        id: "CERT-2023-001",
+        id: "CERT-2023-007",
         name: "ISO 9001 Compliance",
         recipient: "Acme Corporation",
-        issue_date: "14/12/2023",
-        expiry_date: "14/12/2024",
+        issue_date: "4/11/2023",
+        expiry_date: "4/11/2024",
         status: Status.Pending,
         actions: "...",
     },
     {
-        id: "CERT-2023-001",
+        id: "CERT-2023-008",
         name: "ISO 9001 Compliance",
         recipient: "Acme Corporation",
-        issue_date: "14/12/2023",
-        expiry_date: "14/12/2024",
+        issue_date: "10/24/2023",
+        expiry_date: "10/24/2024",
         status: Status.Active,
         actions: "...",
     },
-]
+];
+
 
 const page = () => {
+
     const
         // 
         [total, setTotal] = useState(8),
-        [max, setMax] = useState(9);
+        [certificates, sortCertificates] = useState(_certificates),
+        [max, setMax] = useState(9),
+        sort: any = {
+            "All Certificates": (load: string) => { console.log(load) },
+            "Sort by Issuance Date": (load: string) => { console.log(load) },
+            "Sort by Expiry Date": (load: string) => { console.log(load) },
+            "Sort by ID": (load: string) => { console.log(load) },
+        }
+        ;
     return (
         <div className='p-5 space-y-4'>
             {/* Heading */}
@@ -122,10 +132,11 @@ const page = () => {
                         <div className='flex space-x-3 items-center px-2 '>
 
                             <Image src="/filter.svg" alt="+" width={20} height={20} className="" />
-                            <select name="" id="" className='w-40 focus:outline-none bg-inherit'>
+                            <select name="" id="" onChange={(e) => { sort[e.target.value](e.target.value + "from sort function") }} className='w-40 focus:outline-none bg-inherit'>
                                 <option className=' text-black'>All Certificates</option>
-                                <option className=' text-black'>option2</option>
-                                <option className=' text-black'>option3</option>
+                                <option className=' text-black'>Sort by Issuance Date</option>
+                                <option className=' text-black'>Sort by Expiry Date</option>
+                                <option className=' text-black'>Sort by ID</option>
                             </select>
                         </div>
                         <div className='flex items-center p-2'>
