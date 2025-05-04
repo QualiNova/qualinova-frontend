@@ -5,3 +5,7 @@
 body {
   @apply bg-[#030817] text-white;
 }
+
+* {
+  /* font-size: small; */
+}
